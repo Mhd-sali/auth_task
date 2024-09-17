@@ -1,0 +1,32 @@
+name: contactfirestore
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  build_runner: ^2.4.11
+  cloud_firestore: ^5.0.2
+  firebase_core: ^3.1.1
+  flutter:
+    sdk: flutter
+  flutter_hooks: ^0.20.5
+  flutter_riverpod: ^2.5.1
+  freezed: ^2.5.2
+  freezed_annotation: ^2.4.2
+  get: ^4.6.6
+  hooks_riverpod: ^2.5.1
+  json_annotation: ^4.9.0
+  json_serializable: ^6.8.0
+  riverpod_annotation: ^2.3.5
+  riverpod_generator: ^2.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
